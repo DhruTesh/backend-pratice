@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-backend",
+  "version": "1.0.0",
+  "description": "this is basic project with API request created in express and node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend",
+    "api",
+    "rest"
+  ],
+  "author": "Dhrutesh Dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.9"
+  }
+}
